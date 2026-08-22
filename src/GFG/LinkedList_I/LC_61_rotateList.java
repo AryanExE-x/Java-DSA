@@ -28,7 +28,7 @@ public class LC_61_rotateList {
         slow.next=null; /*breaking apart the linkedlist into 2 subparts*/
         Node tail = a; //store a in tail and move it using while till it ends @null
         while(tail.next!=null){ /*tail!=null pe tail will stop at null. so we cant connect to head*/
-            tail=tail.next;
+            tail=tail.next; //!go to the end of the ll. i.e last element not null
         }
         tail.next= head; //attach it to the head of first part of LL
         return a; //return head of the second part of LL which is at front now
