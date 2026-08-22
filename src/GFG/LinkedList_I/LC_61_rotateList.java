@@ -24,8 +24,8 @@ public class LC_61_rotateList {
             slow = slow.next;
             fast = fast.next;
         }
-        Node a = slow.next;
-        slow.next=null; //breaking apart the linkedlist into 2 subparts
+        Node a = slow.next; /*the point from where we need to break the ll*/
+        slow.next=null; /*breaking apart the linkedlist into 2 subparts*/
         Node tail = a; //store a in tail and move it using while till it ends @null
         while(tail.next!=null){ /*tail!=null pe tail will stop at null. so we cant connect to head*/
             tail=tail.next;
