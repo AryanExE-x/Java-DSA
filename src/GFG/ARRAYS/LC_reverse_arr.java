@@ -1,4 +1,3 @@
-package GFG.ARRAYS;
 
 public class LC_reverse_arr {
     static void main(String[] args) {

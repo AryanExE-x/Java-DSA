@@ -10,6 +10,7 @@ public class LC_61_rotateList {
         }
         return len;
     }
+
     public Node rotateRight(Node head, int k) {
         if(head==null || head.next==null) return head;
         int n = length(head);
@@ -20,7 +21,7 @@ public class LC_61_rotateList {
         for(int i=1;i<=k+1;i++) {
             fast = fast.next;
         }
-        while(fast!=null){
+        while(fast!=null){ /*same as one pass solution*/
             slow = slow.next;
             fast = fast.next;
         }
