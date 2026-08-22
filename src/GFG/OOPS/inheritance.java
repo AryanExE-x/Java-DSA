@@ -16,6 +16,10 @@ class Pokemon{  /*parent class*/
 }
 class StrongPokemon extends Pokemon{ /*child class*/
     int speed;
+    StrongPokemon(String type, int power, int speed){
+        super(type,power);
+        this.speed=speed;
+    }
 }
 
 class LegendaryPokemon extends Pokemon{ /*child class-extra attributes extending from Pokemon class*/
@@ -35,6 +39,8 @@ public class inheritance {
         pikachu.power=91;
         GodPokemon dialga = new GodPokemon();
         dialga.tag='S';
+        StrongPokemon ssss = new StrongPokemon("ashes",99,80);
+        ssss.print();
 
     }
 
