@@ -1,5 +1,5 @@
 package GFG.OOPS.KunalKushwaha_01.WrapperClass;
-class Numbers {
+class   Numbers {
     int a;
     int b;
 
