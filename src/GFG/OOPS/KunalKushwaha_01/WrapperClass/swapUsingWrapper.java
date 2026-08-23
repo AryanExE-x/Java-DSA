@@ -12,8 +12,6 @@ class   Numbers {
         nums.a = nums.b;
         nums.b = temp;
     }
-
-
 }
 public class swapUsingWrapper {
     public static void main(String[] args) {
