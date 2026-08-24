@@ -10,7 +10,6 @@ class Student{  //data type.
     }
 }
 
-
 public class userDefinedDataType {
 
     /*

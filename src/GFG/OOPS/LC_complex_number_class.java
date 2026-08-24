@@ -1,7 +1,4 @@
 package GFG.OOPS;
-
-
-
 public class LC_complex_number_class {
     static class ComplexNumber{
         int x;
