@@ -22,10 +22,10 @@ public class constructors {
             this.seats=seats;
             this.name=name;
             this.length=length;
-
-        }/*
-        *this is constructor overloading.
-        */
+        }
+        /*
+         *this is constructor overloading.
+         */
 
         void print(){
             System.out.println(seats+" "+name+" "+length);

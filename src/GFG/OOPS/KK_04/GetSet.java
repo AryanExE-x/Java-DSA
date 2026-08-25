@@ -9,8 +9,8 @@ public class GetSet{
         return num;
     }
 
-    void setNum(int num){
-        this.num=num;
+    void setNum(int newNum){
+        this.num=newNum;
     }
 
     @Override

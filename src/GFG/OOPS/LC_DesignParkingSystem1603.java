@@ -6,7 +6,7 @@ public class LC_DesignParkingSystem1603 {
         int medium;
         int small;
 
-        public ParkingSystem(int big, int medium, int small) {
+        ParkingSystem(int big, int medium, int small) {
             this.big=big;
             this.medium=medium;
             this.small=small;

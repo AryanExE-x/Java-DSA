@@ -11,7 +11,7 @@ class Fraction {
     }
 
     void print() {
-        System.out.println(num + "/" + den);
+        System.out.println(this.num + "/" + this.den);
 
     }
 
