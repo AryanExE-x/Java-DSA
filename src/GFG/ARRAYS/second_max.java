@@ -20,6 +20,8 @@ public class second_max {
         System.out.println();
         System.out.println("Using two for loops");
         System.out.println();
+
+
         int[] brr={11,12,13,14,11,12};
         int maximum2=Integer.MIN_VALUE;
         int secondmaxmimum2= Integer.MIN_VALUE;

@@ -8,7 +8,7 @@ public class reverse_of_num {
     }
 
     static void main(String[] args) {
-        int n = 512313;
+        int n = 513313;
 //        int r=0;
 //        while(n!=0){
 //            r*=10;

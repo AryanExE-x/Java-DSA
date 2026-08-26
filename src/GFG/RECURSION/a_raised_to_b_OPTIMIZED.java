@@ -7,4 +7,5 @@ public class a_raised_to_b_OPTIMIZED { /*logarithmic*/
         if(b%2==0) return call*call; //for even.
         else return a*call*call; //for odd.
     }
+
 }

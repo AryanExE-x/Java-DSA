@@ -7,3 +7,4 @@ public class climbing_nth_staircase {/*max 2 jumps*/
         return stairs(n-1)+stairs(n-2);  /*TLE Error O(2^n)*/ //abhi ke liye maan lo recursion mein
     }
 }
+//!ignore for now
