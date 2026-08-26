@@ -1,7 +1,23 @@
 package GFG.SORTING_ALGO;
 
 import xCHALLENGES_01.ArrayUtility;
-
+class Solution2{
+    public static int selectionSortKthSmallest(int[] arr,int k){
+        int n = arr.length;
+        for(int i=0;i<k;i++){
+            int minIdx=i;
+            for(int j=i+1;j<n;j++){
+                if(arr[j]<arr[minIdx]){
+                    minIdx=j;
+                }
+            }
+            int temp= arr[i];
+            arr[i]=arr[minIdx];
+            arr[minIdx]=temp;
+        }
+        return arr[k-1];
+    }
+}
 public class LC_kth_smallest_inArray {
     static int smallestKthElement(int[] arr,int k) {  /*using the algo of selection sort*/
         int n = arr.length;
