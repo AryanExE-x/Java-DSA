@@ -21,7 +21,7 @@ public class bubble_sort_betterV {
                 }
             } //? this code is for better optimization
             if(isSorted) break;  /*agar check karne pe sorted mile then break the whole loop*/
-
+            //* if isSorted==false then we will continue to sort.0
             /*this code vv will only run agar arr sorted nhi. i.e=> isSorted=false*/
             for(int i=0;i<n-1-passes;i++){  //in each pass check and swap in order to sort..(n-1->to avoid array out of bound exception err)
                 if(arr[i]>arr[i+1]){

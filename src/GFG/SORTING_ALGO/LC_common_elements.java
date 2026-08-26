@@ -1,7 +1,6 @@
 package GFG.SORTING_ALGO;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 public class LC_common_elements {  /*two arr common el return krna h*/
     public static ArrayList<Integer> commonEl(int[] arr, int[] brr){
             Arrays.sort(arr);  //!mlogm.

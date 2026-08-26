@@ -13,6 +13,7 @@ public class duplicate_arr_MATHEMATICAL_APPROACH {
             sumNum+=j;
         }
         int duplicate = sumArr-sumNum;
+        duplicate = Math.abs(duplicate);
         System.out.print("The duplicate number in the array is:  " + duplicate);
     }
 }
