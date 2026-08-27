@@ -21,6 +21,8 @@ public class first_last_occ_arrayList_binary_search {
         }
         ans.add(index);
 
+
+
         //last occurrence..
 
         lo=0; hi=n-1; index=-1;

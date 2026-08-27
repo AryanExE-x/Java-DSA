@@ -27,4 +27,9 @@ public class bubble_sort_OPTIMIZED {
         print(arr);
 
     }
+//    Case	Time
+//    Best	O(n)*
+//    Average	O(n²)
+//    Worst	O(n²)
+//    Space	O(1)
 }

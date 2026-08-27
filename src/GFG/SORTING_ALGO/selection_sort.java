@@ -31,5 +31,9 @@ public class selection_sort {
         ArrayUtility.displayArr(arr);
 
     }
-
+//    Case	Time
+//    Best	O(n²)
+//    Average	O(n²)
+//    Worst	O(n²)
+//    Space	O(1)
 }

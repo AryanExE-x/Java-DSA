@@ -1,6 +1,6 @@
 package GFG.SORTING_ALGO;
 
-public class move_zeroes_to_end {
+public class move_zeroes_to_end { //again using bubble sort method
     public static void moveZeroes(int[] arr){
         int n=arr.length;
         for(int passes=0;passes<n-1;passes++){

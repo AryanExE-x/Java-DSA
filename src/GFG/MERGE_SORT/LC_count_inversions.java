@@ -16,7 +16,6 @@ public class LC_count_inversions {
         countInv=0;
         mergeSort(arr);
         return countInv;
-
     }
     public static void mergeSort(int[] arr){
         int n=arr.length;

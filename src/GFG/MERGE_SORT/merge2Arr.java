@@ -9,13 +9,13 @@ public class merge2Arr {
                 i++;
                 k++;
             }
-            else{
+            else{ //b[j]<a[i]
                 c[k]=b[j];
                 j++;
                 k++;
             }
         } /*for extra elements in single array*/
-        while (i<a.length) c[k++]=a[i]++;
-        while (j<b.length) c[k++]=b[j]++;
+        while (i<a.length) c[k++]=a[i++];
+        while (j<b.length) c[k++]=b[j++];
     }
 }

@@ -5,7 +5,7 @@ public class LC_segregate_0_and_1 {
         int numOfZeros=0;
         int numOfOnes=0;
         for(int el : arr){
-            if(arr[el]==0) numOfZeros++;
+            if(el==0) numOfZeros++;
             else numOfOnes++;
         }
 /*two pass solution*/
