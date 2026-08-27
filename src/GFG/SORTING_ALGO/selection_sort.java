@@ -27,9 +27,7 @@ public class selection_sort {
             arr[i]=arr[minIndex];
             arr[minIndex]=temp;
         }
-
         ArrayUtility.displayArr(arr);
-
     }
 //    Case	Time
 //    Best	O(n²)
