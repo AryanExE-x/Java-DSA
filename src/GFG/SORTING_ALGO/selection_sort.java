@@ -12,7 +12,6 @@ public class selection_sort {
 
         for(int i=0;i<n-1;i++){
 //Once those n-1 positions are correct, the last element automatically has to be correct.
-
             int min=Integer.MAX_VALUE;
             int minIndex=-1;
 

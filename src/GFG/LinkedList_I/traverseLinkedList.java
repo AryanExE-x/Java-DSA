@@ -1,7 +1,7 @@
 package GFG.LinkedList_I;
 
 public class traverseLinkedList {
-    private static int get(Node head,int idx){
+    private static int get(Node head, int idx){
         for(int i=0;i<idx;i++){
             head=head.next;
         }

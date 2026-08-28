@@ -1,11 +1,11 @@
 package GFG.LinkedList_I;
-class node{   /*user defined data type*/
-    int val;
-    node next;
-    node(int val){
-        this.val=val;
-    }
-}
+//class Node{   /*user defined data type*/
+//    int val;
+//    node next;
+//    node(int val){
+//        this.val=val;
+//    }
+//}
 class linkedlist{ /*user defined data structure */
     Node head;  //null
     Node tail;  //null
@@ -44,7 +44,9 @@ class linkedlist{ /*user defined data structure */
     void delete(int idx){
         if(idx<0 || idx>size){
             System.out.println("invalid index");
+
             return;
+
         }
         if(idx==0){
             deleteAtHead();
@@ -85,6 +87,7 @@ class linkedlist{ /*user defined data structure */
             head = temp;  /*head ko le aao temp pe. ie temp ko head bana diya*/
         }
         size++;
+
     }
 
     void deleteAtHead(){
@@ -123,6 +126,7 @@ class linkedlist{ /*user defined data structure */
 public class LinkedListDataStr {
     public static void main(String[] args) {
         linkedlist ll = new linkedlist();
+
         ll.addAtTail(10);
         ll.addAtTail(20);
         ll.addAtTail(30);
