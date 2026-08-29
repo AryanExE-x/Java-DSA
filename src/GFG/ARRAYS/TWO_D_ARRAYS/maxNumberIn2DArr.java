@@ -21,7 +21,4 @@ public class maxNumberIn2DArr {
         }
         return max;
     }
-    public static int rowWithMaximumSum(int[][] arr){
-        return -1;
-    }
 }
