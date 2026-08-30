@@ -7,13 +7,15 @@ public class insertion_sort {
     static void sort(int[] arr){
         int n=arr.length;
         for(int i=1;i<n;i++){
-            int key = arr[i];
-            int j = i-1;
-            while(j>=0 && arr[j]>key){
-                arr[j+1]=arr[j];
+            int j = i;
+            while(j>0 && arr[j]<arr[j-1]){ //j should be >0 not even 0. warna j-1 will become negative
+                int temp=arr[j];
+                arr[j]=arr[j-1];
+                arr[j-1]=temp;
                 j--;
             }
-            arr[j+1]=key;
+
+
 
         } //*Insertion Sort = Pick → Shift → Insert
     }

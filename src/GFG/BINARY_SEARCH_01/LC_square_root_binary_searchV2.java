@@ -13,4 +13,8 @@ public class LC_square_root_binary_searchV2 {
         return hi;
 
     }
+    public static void main(String[] args){
+        int x = sqroot(5);
+        System.out.println(x);
+    }
 }

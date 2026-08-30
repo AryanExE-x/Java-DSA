@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LC_119_PascalTriangleII {
-        public List<Integer> getRow(int rowIndex) {
-            int row = rowIndex+1;
+        public static List<Integer> getRow(int rowIndex) {
             List<List<Integer>> ans = new ArrayList<>();
             for(int i=0;i<=rowIndex;i++){
                 ans.add(new ArrayList<>());
@@ -19,7 +18,12 @@ public class LC_119_PascalTriangleII {
                     }
                 }
             }
-            return ans.get(rowIndex);
+            return ans.get(rowIndex); //return ith row arraylist element
         }
+        public static void main(String[] args){
+            List<Integer> result = getRow(4);
+            System.out.println(result);
 
+
+        }
 }

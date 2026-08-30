@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LC_118_PascalTriangle {
-    public List<List<Integer>> generate(int n) {
+    public static List<List<Integer>> generate(int n) {
         List<List<Integer>> ans = new ArrayList<>();
         for(int i=0;i<n;i++){
             ans.add(new ArrayList<>());
@@ -19,5 +19,9 @@ public class LC_118_PascalTriangle {
             }
         }
     return ans;
+    }
+    public static void main(String[] args){
+        List<List<Integer>> res = generate(5);
+        System.out.println(res);
     }
 }

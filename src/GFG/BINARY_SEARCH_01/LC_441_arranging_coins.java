@@ -1,6 +1,6 @@
 package GFG.BINARY_SEARCH_01;
 
-public class LC_arranging_coins {
+public class LC_441_arranging_coins {
     static int sqrt(long n){
         if(n==0) return 0;
         long lo=1; long hi=n;

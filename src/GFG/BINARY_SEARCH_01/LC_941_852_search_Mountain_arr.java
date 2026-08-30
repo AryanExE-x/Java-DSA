@@ -1,6 +1,6 @@
 package GFG.BINARY_SEARCH_01;
 
-public class LC_search_Mountain_arr {  /*peak element in mountain array*/
+public class LC_941_852_search_Mountain_arr {  /*peak element in mountain array*/
     public static int peakElement(int[] arr){
         int n = arr.length;
 //        int lo=0; int hi=n-1;   /*exception error aajayegi*/
