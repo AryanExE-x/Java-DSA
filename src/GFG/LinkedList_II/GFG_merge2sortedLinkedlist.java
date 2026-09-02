@@ -17,7 +17,7 @@ public class GFG_merge2sortedLinkedlist {
             }
             k=k.next; //move k forward in each iteration
         }
-        if(i==null) k.next=j;
+        if(i==null) k.next=j; //if i goes null complete the linkedlist by connecting k to null
         else k.next=i; //if j==null
         return dummy.next;
     }
